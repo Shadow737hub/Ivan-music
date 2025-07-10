@@ -1,0 +1,24 @@
+pyrogram==2.0.106                  # Telegram API client
+tgcrypto==1.2.5                    # Fast encryption
+pytgcalls==4.0.0b2                 # Voice chat streaming
+pymongo==4.6.1                     # MongoDB sync driver
+motor==3.4.0                       # Async MongoDB driver
+yt-dlp==2025.6.10                  # Download/stream YouTube audio
+aiohttp==3.9.5                     # Async HTTP requests
+async-timeout==4.0.3               # Async timeouts
+requests==2.31.0                   # Synchronous HTTP
+python-dotenv==1.0.1               # Load env vars from .env
+humanize==4.9.0                    # Pretty file sizes, times
+gTTS==2.5.1                        # Text-to-speech
+Pillow==10.3.0                     # Images (thumbnails, covers)
+pyfiglet==1.0.2                    # ASCII art banners
+rich==13.7.0                       # Pretty logging & tracebacks
+loguru==0.7.2                      # Better logging
+cachetools==5.3.3                  # In-memory cache
+beautifulsoup4==4.12.3             # HTML parsing
+lxml==5.2.1                        # Fast HTML parsing backend
+pydub==0.25.1                      # Audio segment processing
+mutagen==1.47.0                    # Read/write audio metadata
+numpy==1.26.4                      # Needed by some audio tools
+tenacity==8.3.0                    # Retry failed network calls
+validators==0.22.0                 # Validate URLs, strings
