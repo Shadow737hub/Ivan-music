@@ -1,0 +1,62 @@
+{
+  "name": "My Telegram Music Bot",
+  "description": "🎵 A simple Telegram music bot built with Pyrogram, ready to deploy on Heroku.",
+  "repository": "https://github.com/yourusername/yourrepo",
+  "logo": "https://telegra.ph/file/your-bot-logo.png",
+  "keywords": ["telegram", "music", "bot", "python", "pyrogram"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token from BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection URI",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Telegram support channel username (with @)",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Telegram support group username (with @)",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram string session if needed",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [],
+  "stack": "container"
+}
