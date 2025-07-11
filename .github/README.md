@@ -23,7 +23,7 @@
 
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [MUSIC X IVAN](https://t.me/DBZ_ONGOING)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [MUSIC X IVAN]([https://t.me/DBZ_ONGOING](https://t.me/+m63eJ-Mc_jpjMzll))**
 
 
 
