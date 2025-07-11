@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"            # location of your requirements.txt
+    schedule:
+      interval: "weekly"      # check for updates weekly
+    open-pull-requests-limit: 5
+    assignees:
+      - your-github-username  # optional: GitHub username to assign PRs to
+
+  # You can also enable updates for GitHub Actions if you add workflows later:
+  # - package-ecosystem: "github-actions"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
