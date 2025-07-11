@@ -89,11 +89,11 @@
 </h3>
 
 <p align="center">
-<a href="https://t.me/DBZ_ONGOING"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ivan_telegrams"><img src="https://t.me/+m63eJ-Mc_jpjMzll"></a>
 </p>
 
 <p align="center">
-<a href="https://t.me/DBZ_ONGOING"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ivan_telegrams"><img src="https://t.me/ivan_telegrams"></a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ DBZTEAM](https://github.com/DBZ_ONGOING)
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ IVAN ](t.me/x8Ahad)
