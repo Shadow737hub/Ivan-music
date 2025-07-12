@@ -1,47 +1,73 @@
 {
-  "name": "Telegram Music Bot",
-  "description": "🎵 A simple open-source Telegram bot to play music in group voice chats.",
-  "repository": "https://github.com/yourusername/telegram-music-bot",
-  "logo": "https://your-image-link.com/logo.png",
-  "keywords": ["telegram", "music", "bot", "python"],
-  "env": {
-    "API_ID": {
-      "description": "Get this from https://my.telegram.org"
+    "name": "⛦ MUSIC X IVAN ⛦",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://te.legra.ph/file/62fa7c81c56c1ae31c844.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Brandrd",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "22949712",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "918007ea4d42bb1b3eeb509d3f99b04a",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "7536614893:AAFGgJ4XN8Ns5REME6ttwnuV5iMQMqTDD2A",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "mongodb+srv://nothinnothin162:nothinnothin162@cluster0.4ltks1k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "8043525426",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
+        "value": "BQFO9loAhohDhn4NSAuwTtOkLOZ4lZblkjnf5z8AkwRoQAjmsvLVuibV0QZje3eNmBtUUNS4sY6bcSbsc2iIXtmITca0smTjjXLru93eaa4xoEZp3gxEUZpAkqsy1p4WIF4W-BXOGwBz3di0RebOZRVr_5HQY6cbofbW1cAtG0Ob3qnNGaaj9-8287fiyLPZhrwBX0f8lShZGol32hwE0rJm899z1poUB_fRXjJ5weEXTjET0IT-d3n8TPK5d4OcIOzaWMaO7ZLPTs90BENufwq8mmMr1SKQVWuprzRxbApSzmvHlWihY523QgixvUajEZeKmj5N22aIpi9FbgW5LbFdm16VagAAAAG4YI3BAA",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "HRKU-AAMspfSnkbSK2uiNdnrxXkx6HVAHc9Qvy8i8n1SbSckA_w8o1lPmwkcU",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "ashikimusic",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
+        "value": "-1002639408942",
+        "required": true
+      }
     },
-    "API_HASH": {
-      "description": "Get this from https://my.telegram.org"
-    },
-    "BOT_TOKEN": {
-      "description": "From @BotFather"
-    },
-    "SESSION_STRING": {
-      "description": "Generate using string session script"
-    },
-    "SUPPORT_CHANNEL": {
-      "description": "Link to your Telegram support channel"
-    },
-    "SUPPORT_GROUP": {
-      "description": "Link to your Telegram support group"
-    },
-    "LOG_CHANNEL_ID": {
-      "description": "Numeric Telegram channel ID where bot sends logs (e.g. -1001234567890)"
-    },
-    "APP_NAME": {
-      "description": "Your bot's name to show in /start and messages"
-    },
-    "MONGODB_URI": {
-      "description": "MongoDB connection URI (e.g., mongodb+srv://...)"
-    }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
 }
