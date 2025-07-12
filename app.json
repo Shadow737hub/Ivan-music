@@ -14,27 +14,27 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "22949712",
+        "value": "28209312",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "918007ea4d42bb1b3eeb509d3f99b04a",
+        "value": "89def84a7894bb696ff20174c86889a4",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "7536614893:AAFGgJ4XN8Ns5REME6ttwnuV5iMQMqTDD2A",
+        "value": "8172309877:AAH5x2MR_OhfGP8bcwtTRWf0E3Gx875jyVg",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://nothinnothin162:nothinnothin162@cluster0.4ltks1k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "value": "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "8043525426",
+        "value": "7550591956",
         "required": true
       },
       "STRING_SESSION": {
@@ -44,17 +44,17 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "HRKU-AAMspfSnkbSK2uiNdnrxXkx6HVAHc9Qvy8i8n1SbSckA_w8o1lPmwkcU",
+        "value": "HRKU-AAIjc4I0PHhMq_cbiZMs0zHUYjUnxQRhGM3rCgJbmMBw_w8GZKOTuIJz",
         "required": false
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "ashikimusic",
+        "value": "ivanmusic",
         "required": false
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "-1002639408942",
+        "value": "-1002734441374",
         "required": true
       }
     },
