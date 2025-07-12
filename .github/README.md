@@ -23,7 +23,7 @@
 
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [MUSIC X WAIFU](https://t.me/+m63eJ-Mc_jpjMzll)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [MUSIC X IVAN](https://t.me/+m63eJ-Mc_jpjMzll)**
 
 
 
