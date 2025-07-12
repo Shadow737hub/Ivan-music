@@ -1,62 +1,47 @@
 {
-  "name": "My Telegram Music Bot",
-  "description": "🎵 A simple Telegram music bot built with Pyrogram, ready to deploy on Heroku.",
-  "repository": "https://github.com/yourusername/yourrepo",
-  "logo": "https://telegra.ph/file/your-bot-logo.png",
-  "keywords": ["telegram", "music", "bot", "python", "pyrogram"],
+  "name": "Telegram Music Bot",
+  "description": "🎵 A simple open-source Telegram bot to play music in group voice chats.",
+  "repository": "https://github.com/yourusername/telegram-music-bot",
+  "logo": "https://your-image-link.com/logo.png",
+  "keywords": ["telegram", "music", "bot", "python"],
   "env": {
-    "BOT_TOKEN": {
-      "description": "Your bot token from BotFather",
-      "required": true
-    },
     "API_ID": {
-      "description": "Telegram API ID from https://my.telegram.org",
-      "required": true
+      "description": "Get this from https://my.telegram.org"
     },
     "API_HASH": {
-      "description": "Telegram API Hash from https://my.telegram.org",
-      "required": true
+      "description": "Get this from https://my.telegram.org"
     },
-    "MONGO_URI": {
-      "description": "MongoDB connection URI",
-      "required": false
+    "BOT_TOKEN": {
+      "description": "From @BotFather"
+    },
+    "SESSION_STRING": {
+      "description": "Generate using string session script"
     },
     "SUPPORT_CHANNEL": {
-      "description": "Telegram support channel username (with @)",
-      "required": false
+      "description": "Link to your Telegram support channel"
     },
     "SUPPORT_GROUP": {
-      "description": "Telegram support group username (with @)",
-      "required": false
+      "description": "Link to your Telegram support group"
     },
-    "OWNER_ID": {
-      "description": "Your Telegram user ID",
-      "required": true
+    "LOG_CHANNEL_ID": {
+      "description": "Numeric Telegram channel ID where bot sends logs (e.g. -1001234567890)"
     },
-    "STRING_SESSION": {
-      "description": "Pyrogram string session if needed",
-      "required": false
+    "APP_NAME": {
+      "description": "Your bot's name to show in /start and messages"
     },
-    "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Your Heroku API key",
-      "required": false
+    "MONGODB_URI": {
+      "description": "MongoDB connection URI (e.g., mongodb+srv://...)"
     }
   },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
   "formation": {
     "worker": {
       "quantity": 1,
       "size": "free"
     }
   },
-  "addons": [],
-  "stack": "container"
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
