@@ -1,12 +1,12 @@
 {
-    "name": "⛦ MUSIC X IVAN ⛦",
+    "name": "𝚂𝙷𝚄𝙺𝙻𝙰 𝙼𝚄𝚂𝙸𝙲",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/62fa7c81c56c1ae31c844.jpg",
+    "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Brandrd",
+    "SHUKLA",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -24,7 +24,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value"
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -38,23 +38,23 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
-        "value"
+        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value"
+        "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value"
+        "value": "",
         "required": false
       },
       "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "-1002734441374",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "-1002759072638",
         "required": true
       }
     },
