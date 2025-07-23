@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from IVANxMUSIC import LOGGER, app, userbot
-from SHUKLAMUSIC.core.call import IVAN
+from IVANxMUSIC.core.call import IVAN
 from IVANxMUSIC.misc import sudo
 from IVANxMUSIC.plugins import ALL_MODULES
 from IVANxMUSIC.utils.database import get_banned_users, get_gbanned
