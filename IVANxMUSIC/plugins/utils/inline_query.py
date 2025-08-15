@@ -1,4 +1,4 @@
-#coaded by Ivan please don't sell it
+#coaded by Ivan please don't sell it.
 
 
 from pyrogram.types import InlineQueryResultArticle, InputTextMessageContent
