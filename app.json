@@ -1,11 +1,12 @@
 {
-    "name": "IVAN MUSIC",
+    "name": "`Iᐯᗩᑎ ᗰᑌՏIᑕ`",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
+    "IVANMUSIC",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -13,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "28209312",
+        "value": "22657083",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "89def84a7894bb696ff20174c86889a4",
+        "value": "d6186691704bd901bdab275ceaab88f3",
         "required": true
       },
       "BOT_TOKEN": {
@@ -28,16 +29,16 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan",
+        "value": "mongodb+srv://ahad0181888:ahad0181888@cluster0.f9casz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "7550591956",
+        "value": "8195241636",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+        "description": "A Pyrogram v2 String Session from tool or any  Telegram bot.",
         "value": "",
         "required": true
       },
@@ -48,12 +49,12 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "",
+        "value": "Ivan",
         "required": false
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002759072638",
+        "value": "-1002653606597",
         "required": true
       }
     },
