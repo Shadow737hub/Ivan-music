@@ -1,6 +1,6 @@
 class Fonts:
     def typewriter(text):
-        style = {
+       style = {
             "a": "𝚊",
             "b": "𝚋",
             "c": "𝚌",
