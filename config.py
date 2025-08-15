@@ -1,5 +1,5 @@
 # Made By Ivan - @x8Ahad
-Dont Copy And Sell this repo Thanks
+#Dont Copy And Sell this repo Thanks
 # config.py
 
 import os
