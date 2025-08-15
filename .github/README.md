@@ -90,4 +90,4 @@
 <a href="https://t.me/+m63eJ-Mc_jpjMzll"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙 [IVAN](https://t.me/+m63eJ-Mc_jpjMzll)
+- <b> _𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙 [IVAN](https://t.me/+15305000787)
