@@ -1,9 +1,11 @@
+#Coaded by Ivan please don't sell it
+
 import time
 
 import psutil
 
-from SHUKLAMUSIC.misc import _boot_
-from SHUKLAMUSIC.utils.formatters import get_readable_time
+from IVANMUSIC.misc import _boot_
+from IVANMUSIC.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
@@ -13,3 +15,4 @@ async def bot_sys_stats():
     RAM = f"{psutil.virtual_memory().percent}%"
     DISK = f"{psutil.disk_usage('/').percent}%"
     return UP, CPU, RAM, DISK
+
