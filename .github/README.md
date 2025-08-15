@@ -1,7 +1,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「⛦ Coded By IVAN ⛦ 」──
+    ──「⛦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 - 𝐼 ꪜ ꪖ ꪀ ⛦ 」──
 </h2>
 
 <p align="center">
