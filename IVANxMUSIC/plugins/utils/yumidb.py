@@ -8,7 +8,7 @@ from pyrogram.enums import ChatMemberStatus, ChatType
 from SHUKLAMUSIC import app
 
 from config import OWNER_ID, BOT_USERNAME
-from SHUKLAMUSIC.misc import SUDOERS
+from IVANMUSIC.misc import SUDOERS
 
 COMMANDERS = [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER]
 
