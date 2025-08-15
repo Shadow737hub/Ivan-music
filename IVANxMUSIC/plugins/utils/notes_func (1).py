@@ -3,10 +3,10 @@ from pyrogram.types import Message
 import html
 import re
 from pyrogram.types import InlineKeyboardMarkup
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.mongo.notesdb import GetNote
+from IVANMUSIC import app
+from IVANMUSIC.mongo.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from SHUKLAMUSIC.utils.msg_types import button_markdown_parser
+from IVANMUSIC.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()
