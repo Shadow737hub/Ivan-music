@@ -4,4 +4,5 @@ from .play import *
 from .queue import *
 from .settings import *
 from .speed import *
-from .start import *￼Enter
+from .start import *
+
