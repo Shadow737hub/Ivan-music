@@ -5,7 +5,7 @@ from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.enums import ChatMemberStatus, ChatType
 
-from SHUKLAMUSIC import app
+from IVANMUSIC import app
 
 from config import OWNER_ID, BOT_USERNAME
 from IVANMUSIC.misc import SUDOERS
