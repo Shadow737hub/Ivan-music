@@ -28,5 +28,5 @@ if config.MONGO_DB_URI is None:
 else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.Shadow
-    pymongodb = _mongo_sync_.Shadow
+    mongodb = _mongo_async_.Ivanmusic
+    pymongodb = _mongo_sync_.Ivanmusic
