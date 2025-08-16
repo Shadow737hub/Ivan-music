@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import YouTube, app
-from Shadow.core.call import Hotty
-from Shadow.misc import db
-from Shadow.utils import AdminRightsCheck, seconds_to_min
+from IVANMUSIC import YouTube, app
+from IVANMUSIC.core.call import Hotty
+from IVANMUSIC.misc import db
+from IVANMUSIC.utils import AdminRightsCheck, seconds_to_min
 from Shadow.utils.inline import close_markup
 
 
