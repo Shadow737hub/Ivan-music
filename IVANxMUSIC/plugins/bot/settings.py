@@ -36,7 +36,7 @@ from Ivanmusic.utils.inline.settings import (
     setting_markup,
     vote_mode_markup,
 )
-from Shadow.utils.inline.start import private_panel
+from Ivanmusic.utils.inline.start import private_panel
 
 
 @app.on_message(
