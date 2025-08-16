@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery
-from Shadow import app
-from Shadow.utils.inline.start import details_buttons, credit_buttons
+from Ivanmusic import app
+from Ivanmusic.utils.inline.start import details_buttons, credit_buttons
 
 VIDEO_LINK = "https://files.catbox.moe/issfxd.mp4"
 CAPTION = "✨💫 𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 𝙨𝙚𝙘𝙩𝙞𝙤𝙣 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣 💫✨"
