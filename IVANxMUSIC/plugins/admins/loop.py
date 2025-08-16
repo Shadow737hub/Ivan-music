@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.utils.database import get_loop, set_loop
-from Shadow.utils.decorators import AdminRightsCheck
-from Shadow.utils.inline import close_markup
+from IVANMUSIC import app
+from IVANMUSIC.utils.database import get_loop, set_loop
+from IVANMUSIC.utils.decorators import AdminRightsCheck
+from IVANMUSIC.utils.inline import close_markup
 
 
 @app.on_message(filters.command(["loop", "cloop"]) & filters.group & ~BANNED_USERS)
