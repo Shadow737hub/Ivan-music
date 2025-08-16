@@ -2,8 +2,8 @@
 
 from pyrogram.enums import ParseMode
 
-from IVANMUSIC import app
-from IVANMUSIC.utils.database import is_on_off
+from from Ivanmusic import app import app
+from from Ivanmusic import app.utils.database import is_on_off
 from config import LOG_GROUP_ID
 
 
