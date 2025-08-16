@@ -4,7 +4,7 @@ from typing import Optional, Union
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import enums, filters
 
-from Shadow import app
+from Ivanmusic import app
 
 random_photo = [
     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
