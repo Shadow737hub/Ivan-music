@@ -7,9 +7,9 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import OWNER_ID
-from IVANMUSIC import app
-from IVANMUSIC.core.mongo import mongodb
-from IVANMUSIC.utils.database import get_served_chats, get_served_users
+from Ivanmusic import app
+from Ivanmusic.core.mongo import mongodb
+from Ivanmusic.utils.database import get_served_chats, get_served_users
 
 pros = mongodb.pro
 protimes = mongodb.protime
