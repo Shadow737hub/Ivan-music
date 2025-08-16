@@ -3,8 +3,8 @@ from pyrogram.types import Message
 from unidecode import unidecode
 
 from config import OWNER_ID
-from Shadow import app
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
