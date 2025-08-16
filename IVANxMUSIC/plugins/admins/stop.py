@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.core.call import Hotty
-from Shadow.utils.database import set_loop
-from Shadow.utils.decorators import AdminRightsCheck
-from Shadow.utils.inline import close_markup
+from Ivanmusic import app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.utils.database import set_loop
+from Ivanmusic.utils.decorators import AdminRightsCheck
+from Ivanmusic.utils.inline import close_markup
 
 
 @app.on_message(
