@@ -1,7 +1,7 @@
 import random
 
-from IVANMUSIC import userbot
-from IVANMUSIC.core.mongo import mongodb
+from Ivanmusic import userbot
+from Ivanmusic.core.mongo import mongodb
 
 db = mongodb.assistants
 
