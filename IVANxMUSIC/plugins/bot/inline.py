@@ -6,7 +6,7 @@ from pyrogram.types import (
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import BANNED_USERS
-from Shadow import app
+from Ivanmusic import app
 
 
 @app.on_inline_query(~BANNED_USERS)
