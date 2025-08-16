@@ -2,8 +2,8 @@ import asyncio
 
 from pyrogram import filters
 
-from Shadow import app
-from Shadow.utils.branded_ban import admin_filter
+from IVANMUSIC import app
+from IVANMUSIC.utils.branded_ban import admin_filter
 
 SPAM_CHATS = []
 
