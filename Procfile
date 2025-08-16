@@ -1,1 +1,1 @@
-web: python _main_.py
+worker: bash start
