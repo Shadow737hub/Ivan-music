@@ -2,15 +2,15 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from Shadow import app
-from Shadow.utils import extract_user, int_to_alpha
-from Shadow.utils.database import (
+from IVANMUSIC import app
+from IVANMUSIC.utils import extract_user, int_to_alpha
+from IVANMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from Shadow.utils.decorators import AdminActual, language
+from IVANMUSIC.utils.decorators import AdminActual, language
 from Shadow.utils.inline import close_markup
 
 
