@@ -5,7 +5,7 @@ import requests
 from pyrogram import filters
 from pyrogram.enums import ChatAction, PollType
 
-from Shadow import app
+from IVANMUSIC import app
 
 last_command_time = {}
 
