@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.core.call import Hotty
-from Shadow.utils.database import is_music_playing, music_off
-from Shadow.utils.decorators import AdminRightsCheck
-from Shadow.utils.inline import close_markup
+from IVANMUSIC import app
+from IVANMUSIC.core.call import Hotty
+from IVANMUSIC.utils.database import is_music_playing, music_off
+from IVANMUSIC.utils.decorators import AdminRightsCheck
+from IVANMUSIC.utils.inline import close_markup
 
 
 @app.on_message(filters.command(["pause", "cpause"]) & filters.group & ~BANNED_USERS)
