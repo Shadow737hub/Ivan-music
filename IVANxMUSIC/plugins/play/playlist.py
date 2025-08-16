@@ -478,7 +478,7 @@ async def add_playlist(client, message: Message, _):
         except Exception as e:
             return await message.reply_text(str(e))
     else:
-        from Shadow import YouTube
+        from Ivanmusic import YouTube
 
         # Add a specific song by name
         query = " ".join(message.command[1:])
@@ -598,7 +598,7 @@ async def del_plist(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("recover_playlist") & ~BANNED_USERS)
 @languageCB
 async def add_playlist(client, CallbackQuery, _):
-    from Shadow import YouTube
+    from Ivanmusic import YouTube
 
     callback_data = CallbackQuery.data.strip()
     videoid = callback_data.split(None, 1)[1]
