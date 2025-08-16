@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from IVANMUSIC import app
+from Ivanmusic import app
 
 
 class Fonts:
