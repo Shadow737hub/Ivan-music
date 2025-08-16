@@ -10,11 +10,11 @@ from pytgcalls.__version__ import __version__ as pytgver
 
 import config
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.core.userbot import assistants
-from Shadow.misc import SUDOERS, mongodb
-from Shadow.plugins import ALL_MODULES
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.core.userbot import assistants
+from Ivanmusic.misc import SUDOERS, mongodb
+from Ivanmusic.plugins import ALL_MODULES
+from Ivanmusic.utils.database import (
     get_queries,
     get_served_chats,
     get_served_users,
