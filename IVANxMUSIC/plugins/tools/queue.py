@@ -7,12 +7,12 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.misc import db
-from Shadow.utils import HottyBin, get_channeplayCB, seconds_to_min
-from Shadow.utils.database import get_cmode, is_active_chat, is_music_playing
-from Shadow.utils.decorators.language import language, languageCB
-from Shadow.utils.inline import queue_back_markup, queue_markup
+from Ivanmusic import app
+from Ivanmusic.misc import db
+from Ivanmusic.utils import HottyBin, get_channeplayCB, seconds_to_min
+from Ivanmusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from Ivanmusic.utils.decorators.language import language, languageCB
+from Ivanmusic.utils.inline import queue_back_markup, queue_markup
 
 basic = {}
 
