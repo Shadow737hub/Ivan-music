@@ -3,8 +3,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Shadow import app
-from Shadow.mongo.afkdb import LOGGERS as OWNERS
+from Ivanmusic import app
+from Ivanmusic.mongo.afkdb import LOGGERS as OWNERS
 from Shadow.utils.database import add_served_chat, get_assistant
 
 
