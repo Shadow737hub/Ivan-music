@@ -85,7 +85,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from IVANMUSIC.core.userbot import assistants
+    from Ivanmusic.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
