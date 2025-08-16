@@ -1,6 +1,6 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from IVANMUSIC.utils.formatters import time_to_seconds
+from Ivanmusic.utils.formatters import time_to_seconds
 from config import BOT_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
 
 
