@@ -8,7 +8,7 @@ from Ivanmusic import app
 AUTO = True
 
 ADD_INTERVAL = 1  # Add every day (in seconds)
-users = "@Shadow_rebot"
+users = "@Ivanmusic_rebot"
 
 
 async def add_bot_to_chats():
