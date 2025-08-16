@@ -7,13 +7,13 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS, lyrical
-from Shadow import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Shadow.core.call import Hotty
-from Shadow.utils import seconds_to_min, time_to_seconds
-from Shadow.utils.channelplay import get_channeplayCB
-from Shadow.utils.decorators.language import languageCB
-from Shadow.utils.decorators.play import PlayWrapper
-from Shadow.utils.formatters import formats
+from Ivanmusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.utils import seconds_to_min, time_to_seconds
+from Ivanmusic.utils.channelplay import get_channeplayCB
+from Ivanmusic.utils.decorators.language import languageCB
+from Ivanmusic.utils.decorators.play import PlayWrapper
+from Ivanmusic.utils.formatters import formats
 from Shadow.utils.inline import (
     botplaylist_markup,
     livestream_markup,
@@ -21,8 +21,8 @@ from Shadow.utils.inline import (
     slider_markup,
     track_markup,
 )
-from Shadow.utils.logger import play_logs
-from Shadow.utils.stream.stream import stream
+from Ivanmusic.utils.logger import play_logs
+from Ivanmusic.utils.stream.stream import stream
 
 
 @app.on_message(
