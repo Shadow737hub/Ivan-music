@@ -1,7 +1,7 @@
 import asyncio
 
-from Shadow.misc import db
-from Shadow.utils.database import get_active_chats, is_music_playing
+from Ivanmusic.misc import db
+from Ivanmusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
