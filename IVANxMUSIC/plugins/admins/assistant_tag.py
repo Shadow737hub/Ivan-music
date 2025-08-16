@@ -2,9 +2,9 @@ import asyncio
 
 from pyrogram import filters
 
-from IVANMUSIC import app
-from IVANMUSIC.utils.branded_ban import admin_filter
-from IVANMUSIC.utils.database import get_assistant
+from Ivanmusic import app
+from Ivanmusic.utils.branded_ban import admin_filter
+from Ivanmusic.utils.database import get_assistant
 
 SPAM_CHATS = []
 
