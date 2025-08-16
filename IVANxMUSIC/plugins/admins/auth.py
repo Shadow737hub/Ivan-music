@@ -2,16 +2,16 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from IVANMUSIC import app
-from IVANMUSIC.utils import extract_user, int_to_alpha
-from IVANMUSIC.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.utils import extract_user, int_to_alpha
+from Ivanmusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from IVANMUSIC.utils.decorators import AdminActual, language
-from IVANMUSIC.utils.inline import close_markup
+from Ivanmusic.utils.decorators import AdminActual, language
+from Ivanmusic.utils.inline import close_markup
 
 
 @app.on_message(filters.command("auth") & filters.group & ~BANNED_USERS)
