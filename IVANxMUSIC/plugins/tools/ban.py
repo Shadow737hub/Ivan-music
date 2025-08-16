@@ -14,18 +14,18 @@ from pyrogram.types import (
 from string import ascii_lowercase
 from typing import Dict, Union
 
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.core.mongo import mongodb
-from Shadow.utils.errors import capture_err
-from Shadow.utils.keyboard import ikb
-from Shadow.utils.database.memorydatabase import save_filter
-from Shadow.utils.functions import (
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.core.mongo import mongodb
+from Ivanmusic.utils.errors import capture_err
+from Ivanmusic.utils.keyboard import ikb
+from Ivanmusic.utils.database.memorydatabase import save_filter
+from Ivanmusic.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
 )
-from Shadow.utils.permissions import adminsOnly, member_permissions
+from Ivanmusic.utils.permissions import adminsOnly, member_permissions
 from config import BANNED_USERS
 
 warnsdb = mongodb.warns
