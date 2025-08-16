@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from IVANMUSIC import YouTube, app
-from IVANMUSIC.core.call import Hotty
-from IVANMUSIC.misc import db
-from IVANMUSIC.utils import AdminRightsCheck, seconds_to_min
-from IVANMUSIC.utils.inline import close_markup
+from Ivanmusic import YouTube, app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.misc import db
+from Ivanmusic.utils import AdminRightsCheck, seconds_to_min
+from Ivanmusic.utils.inline import close_markup
 
 
 @app.on_message(
