@@ -5,18 +5,18 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from config import adminlist
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from Shadow.utils.decorators.language import language
-from Shadow.utils.formatters import alpha_to_int
-from Shadow.misc import SUDOERS
+from Ivanmusic.utils.decorators.language import language
+from Ivanmusic.utils.formatters import alpha_to_int
+from Ivanmusic.misc import SUDOERS
 
 IS_BROADCASTING = False
 
