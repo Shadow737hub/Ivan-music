@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import MUSIC_BOT_NAME
-from Shadow import app
+from Ivanmusic import app
 
 
 @app.on_message(filters.command(["alive"]))
