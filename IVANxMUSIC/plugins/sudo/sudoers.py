@@ -7,11 +7,11 @@ from pyrogram.types import (
 )
 
 from config import BANNED_USERS, OWNER_ID
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils.database import add_sudo, remove_sudo
-from Shadow.utils.decorators.language import language
-from Shadow.utils.extraction import extract_user
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import add_sudo, remove_sudo
+from Ivanmusic.utils.decorators.language import language
+from Ivanmusic.utils.extraction import extract_user
 
 
 @app.on_message(
