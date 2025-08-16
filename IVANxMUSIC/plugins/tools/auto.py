@@ -1,9 +1,9 @@
 import asyncio
 import datetime
 from pyrogram import Client
-from Shadow.utils.database import get_assistant
+from Ivanmusic.utils.database import get_assistant
 import config
-from Shadow import app
+from Ivanmusic import app
 
 AUTO = True
 
