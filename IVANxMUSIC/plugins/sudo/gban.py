@@ -8,7 +8,7 @@ from config import BANNED_USERS
 from Ivanmusic import app
 from Ivanmusic.misc import SUDOERS
 from Ivanmusic.utils import get_readable_time
-from Shadow.utils.database import (
+from Ivanmusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
