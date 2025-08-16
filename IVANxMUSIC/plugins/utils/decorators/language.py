@@ -1,5 +1,5 @@
-from IVANMUSIC.misc import SUDOERS
-from IVANMUSIC.utils.database import get_lang, is_maintenance
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import get_lang, is_maintenance
 from config import SUPPORT_GROUP
 from strings import get_string
 
