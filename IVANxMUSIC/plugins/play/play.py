@@ -14,7 +14,7 @@ from Ivanmusic.utils.channelplay import get_channeplayCB
 from Ivanmusic.utils.decorators.language import languageCB
 from Ivanmusic.utils.decorators.play import PlayWrapper
 from Ivanmusic.utils.formatters import formats
-from Shadow.utils.inline import (
+from Ivanmusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
