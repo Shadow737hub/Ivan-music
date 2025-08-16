@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from Shadow.utils.decorators import language
-from Shadow.utils.inline.settings import playmode_users_markup
+from Ivanmusic import app
+from Ivanmusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from Ivanmusic.utils.decorators import language
+from Ivanmusic.utils.inline.settings import playmode_users_markup
 
 
 @app.on_message(filters.command(["playmode", "mode"]) & filters.group & ~BANNED_USERS)
