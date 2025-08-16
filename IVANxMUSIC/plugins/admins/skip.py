@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from config import BANNED_USERS
-from Shadow import YouTube, app
-from Shadow.core.call import Hotty
-from Shadow.misc import db
-from Shadow.utils.database import get_loop
-from Shadow.utils.decorators import AdminRightsCheck
-from Shadow.utils.inline import close_markup, stream_markup, stream_markup2
-from Shadow.utils.stream.autoclear import auto_clean
-from Shadow.utils.thumbnails import get_thumb
+from Ivanmusic import YouTube, app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.misc import db
+from Ivanmusic.utils.database import get_loop
+from Ivanmusic.utils.decorators import AdminRightsCheck
+from Ivanmusic.utils.inline import close_markup, stream_markup, stream_markup2
+from Ivanmusic.utils.stream.autoclear import auto_clean
+from Ivanmusic.utils.thumbnails import get_thumb
 
 
 @app.on_message(
