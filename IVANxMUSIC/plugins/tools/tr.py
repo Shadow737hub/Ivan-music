@@ -1,7 +1,7 @@
 from gpytranslate import Translator
 from pyrogram import filters
 
-from Shadow import app
+from Ivanmusic import app
 
 # .......
 
