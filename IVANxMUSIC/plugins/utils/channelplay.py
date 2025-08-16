@@ -1,5 +1,5 @@
-from IVANMUSIC import app
-from IVANMUSIC.utils.database import get_cmode
+from Ivanmusic import app
+from Ivanmusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
