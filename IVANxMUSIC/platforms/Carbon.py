@@ -70,9 +70,9 @@ colour = [
 class CarbonAPI:
     def __init__(self):
         self.language = "auto"
-        self.drop_shadow = True
-        self.drop_shadow_blur = "68px"
-        self.drop_shadow_offset = "20px"
+        self.drop_Ivanmusic = True
+        self.drop_Ivanmusic_blur = "68px"
+        self.drop_Ivanmusic_offset = "20px"
         self.font_family = "JetBrains Mono"
         self.width_adjustment = True
         self.watermark = False
