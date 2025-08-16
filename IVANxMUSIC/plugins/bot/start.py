@@ -7,10 +7,10 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.misc import _boot_
-from Shadow.plugins.sudo.sudoers import sudoers_list
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.misc import _boot_
+from Ivanmusic.plugins.sudo.sudoers import sudoers_list
+from Ivanmusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -18,11 +18,11 @@ from Shadow.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Shadow.utils.decorators.language import LanguageStart
-from Shadow.utils.formatters import get_readable_time
-from Shadow.utils.inline import help_pannel, private_panel, start_panel
+from Ivanmusic.utils.decorators.language import LanguageStart
+from Ivanmusic.utils.formatters import get_readable_time
+from Ivanmusic.utils.inline import help_pannel, private_panel, start_panel
 from strings import get_string
-from Shadow.misc import SUDOERS
+from Ivanmusic.misc import SUDOERS
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
