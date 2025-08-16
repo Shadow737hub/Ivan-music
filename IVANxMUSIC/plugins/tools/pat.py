@@ -1,6 +1,6 @@
 """from pyrogram import filters
-from Shadow  import app
-from Shadow .utils.https import fetch  # Import the fetch function
+from Ivanmusic import app
+from Ivanmusic.utils.https import fetch  # Import the fetch function
 
 url_sfw = "https://api.waifu.pics/sfw/pat"
 
