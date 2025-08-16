@@ -1,4 +1,4 @@
-IVANMUSIC
+Ivanmusic
 aiofiles
 aiohttp
 apscheduler
