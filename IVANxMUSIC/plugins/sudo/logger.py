@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils.database import add_off, add_on
-from Shadow.utils.decorators.language import language
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import add_off, add_on
+from Ivanmusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
