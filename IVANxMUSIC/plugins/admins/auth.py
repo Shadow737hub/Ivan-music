@@ -11,7 +11,7 @@ from IVANMUSIC.utils.database import (
     save_authuser,
 )
 from IVANMUSIC.utils.decorators import AdminActual, language
-from Shadow.utils.inline import close_markup
+from IVANMUSIC.utils.inline import close_markup
 
 
 @app.on_message(filters.command("auth") & filters.group & ~BANNED_USERS)
