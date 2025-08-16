@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from IVANxMUSIC import LOGGER, app, userbot
-from IVANxMUSIC.core.call import IVAN
-from IVANxMUSIC.misc import sudo
-from IVANxMUSIC.plugins import ALL_MODULES
-from IVANxMUSIC.utils.database import get_banned_users, get_gbanned
+from Ivanmusic import LOGGER, app, userbot
+from Ivanmusic.core.call import IVAN
+from Ivanmusic.misc import sudo
+from Ivanmusic.plugins import ALL_MODULES
+from Ivanmusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
