@@ -3,9 +3,9 @@ from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.utils.database import set_cmode
-from Shadow.utils.decorators.admins import AdminActual
+from Ivanmusic import app
+from Ivanmusic.utils.database import set_cmode
+from Ivanmusic.utils.decorators.admins import AdminActual
 
 
 @app.on_message(filters.command(["channelplay"]) & filters.group & ~BANNED_USERS)
