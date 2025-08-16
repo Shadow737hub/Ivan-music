@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from Ivanmusic import app
 from Ivanmusic.mongo.afkdb import LOGGERS as OWNERS
-from Shadow.utils.database import add_served_chat, get_assistant
+from Ivanmusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("repo"))
