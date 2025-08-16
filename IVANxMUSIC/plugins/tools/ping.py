@@ -4,11 +4,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, PING_IMG_URL
-from Shadow import app
-from Shadow.core.call import Hotty
-from Shadow.utils import bot_sys_stats
-from Shadow.utils.decorators.language import language
-from Shadow.utils.inline import supp_markup
+from Ivanmusic import app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.utils import bot_sys_stats
+from Ivanmusic.utils.decorators.language import language
+from Ivanmusic.utils.inline import supp_markup
 
 
 @app.on_message(filters.command(["ping", "alive"]) & ~BANNED_USERS)
