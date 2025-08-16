@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from Shadow import app
-from Shadow.core.call import Hotty
-from Shadow.misc import SUDOERS, db
-from Shadow.utils import AdminRightsCheck
-from Shadow.utils.database import is_active_chat, is_nonadmin_chat
-from Shadow.utils.decorators.language import languageCB
-from Shadow.utils.inline import close_markup, speed_markup
+from Ivanmusic import app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.misc import SUDOERS, db
+from Ivanmusic.utils import AdminRightsCheck
+from Ivanmusic.utils.database import is_active_chat, is_nonadmin_chat
+from Ivanmusic.utils.decorators.language import languageCB
+from Ivanmusic.utils.inline import close_markup, speed_markup
 
 checker = []
 
