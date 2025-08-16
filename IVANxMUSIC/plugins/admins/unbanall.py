@@ -1,7 +1,7 @@
 from pyrogram import enums, filters
 
-from Shadow import app
-from Shadow.utils.vip_ban import admin_filter
+from Ivanmusic import app
+from Ivanmusic.utils.vip_ban import admin_filter
 
 BOT_ID = app.id
 
