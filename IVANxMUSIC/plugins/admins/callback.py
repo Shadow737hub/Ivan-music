@@ -13,10 +13,10 @@ from config import (
     confirmer,
     votemode,
 )
-from Shadow import YouTube, app
-from Shadow.core.call import Hotty
-from Shadow.misc import SUDOERS, db
-from Shadow.utils.database import (
+from IVANMUSIC import YouTube, app
+from IVANMUSIC.core.call import Hotty
+from IVANMUSIC.misc import SUDOERS, db
+from IVANMUSIC.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -27,17 +27,17 @@ from Shadow.utils.database import (
     music_on,
     set_loop,
 )
-from Shadow.utils.decorators.language import languageCB
-from Shadow.utils.formatters import seconds_to_min
-from Shadow.utils.inline import (
+from IVANMUSIC.utils.decorators.language import languageCB
+from IVANMUSIC.utils.formatters import seconds_to_min
+from IVANMUSIC.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup2,
     stream_markup_timer,
     stream_markup_timer2,
 )
-from Shadow.utils.stream.autoclear import auto_clean
-from Shadow.utils.thumbnails import get_thumb
+from IVANMUSIC.utils.stream.autoclear import auto_clean
+from IVANMUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 checker = {}
