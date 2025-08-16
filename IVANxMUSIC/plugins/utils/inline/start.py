@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 import config
-from IVANMUSIC import app
+from Ivanmusic import app
 
 def start_panel(_):
     buttons = [
