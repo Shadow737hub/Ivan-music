@@ -2,8 +2,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import OWNER_ID
-from Shadow import app
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
