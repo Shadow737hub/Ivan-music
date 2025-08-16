@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from telegraph import upload_file
 
 # BOT FILE NAME
-from Shadow import app as app
+from Ivanmusic import app as app
 
 POLICE = [
     [
