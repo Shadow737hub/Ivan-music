@@ -11,8 +11,8 @@ from pyrogram.types import (
 )
 
 from config import BANNED_USERS, OWNER_ID, START_IMG_URL
-from Shadow import app
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -28,9 +28,9 @@ from Shadow.utils.database import (
     skip_off,
     skip_on,
 )
-from Shadow.utils.decorators.admins import ActualAdminCB
-from Shadow.utils.decorators.language import language, languageCB
-from Shadow.utils.inline.settings import (
+from Ivanmusic.utils.decorators.admins import ActualAdminCB
+from Ivanmusic.utils.decorators.language import language, languageCB
+from Ivanmusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
