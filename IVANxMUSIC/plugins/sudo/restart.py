@@ -10,14 +10,14 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from Shadow import app
-from Shadow.misc import HAPP, SUDOERS, XCB
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.misc import HAPP, SUDOERS, XCB
+from Ivanmusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from Shadow.utils.decorators.language import language
+from Ivanmusic.utils.decorators.language import language
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
