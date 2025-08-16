@@ -13,10 +13,10 @@ from config import (
     confirmer,
     votemode,
 )
-from IVANMUSIC import YouTube, app
-from IVANMUSIC.core.call import Hotty
-from IVANMUSIC.misc import SUDOERS, db
-from IVANMUSIC.utils.database import (
+from Ivanmusic import YouTube, app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.misc import SUDOERS, db
+from Ivanmusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -27,17 +27,17 @@ from IVANMUSIC.utils.database import (
     music_on,
     set_loop,
 )
-from IVANMUSIC.utils.decorators.language import languageCB
-from IVANMUSIC.utils.formatters import seconds_to_min
-from IVANMUSIC.utils.inline import (
+from Ivanmusic.utils.decorators.language import languageCB
+from Ivanmusic.utils.formatters import seconds_to_min
+from Ivanmusic.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup2,
     stream_markup_timer,
     stream_markup_timer2,
 )
-from IVANMUSIC.utils.stream.autoclear import auto_clean
-from IVANMUSIC.utils.thumbnails import get_thumb
+from Ivanmusic.utils.stream.autoclear import auto_clean
+from Ivanmusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 checker = {}
