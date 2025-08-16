@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from IVANMUSIC import YouTube, app
-from IVANMUSIC.misc import SUDOERS
-from IVANMUSIC.utils.database import (
+from Ivanmusic import YouTube, app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from IVANMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from IVANMUSIC.utils.inline import botplaylist_markup
+from Ivanmusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_GROUP, adminlist
 from strings import get_string
 
