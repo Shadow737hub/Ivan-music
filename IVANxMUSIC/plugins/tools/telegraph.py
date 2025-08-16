@@ -4,7 +4,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Shadow import app
+from Ivanmusic import app
 
 
 def upload_file(file_path):
