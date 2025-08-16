@@ -1,4 +1,4 @@
-from Ivanmusic.core.bot import IVAN
+from Ivanmusic.core.bot import Aviax
 from Ivanmusic.core.dir import dirr
 from Ivanmusic.core.git import git
 from Ivanmusic.core.userbot import Userbot
