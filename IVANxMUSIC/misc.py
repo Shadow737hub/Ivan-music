@@ -19,7 +19,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
-logger = logging.getLogger("MusicBot")
+logger = logging.getLogger("DEV_x_ERRORS")
 
 # ✅ Heroku
 HEROKU_APP_NAME = config.HEROKU_APP_NAME
