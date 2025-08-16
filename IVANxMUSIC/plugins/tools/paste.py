@@ -7,9 +7,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from Shadow import app
-from Shadow.utils.errors import capture_err
-from Shadow.utils.pastebin import HottyBin
+from Ivanmusic import app
+from Ivanmusic.utils.errors import capture_err
+from Ivanmusic.utils.pastebin import HottyBin
 
 pattern = re.compile(r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$")
 
