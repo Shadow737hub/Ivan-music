@@ -3,9 +3,9 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.utils.database import get_lang, set_lang
-from Shadow.utils.decorators import ActualAdminCB, language, languageCB
+from Ivanmusic import app
+from Ivanmusic.utils.database import get_lang, set_lang
+from Ivanmusic.utils.decorators import ActualAdminCB, language, languageCB
 from strings import get_string, languages_present
 
 
