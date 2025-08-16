@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from config import OWNER_ID
-from Shadow import app
+from Ivanmusic import app
 
 PORM = [
     "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
