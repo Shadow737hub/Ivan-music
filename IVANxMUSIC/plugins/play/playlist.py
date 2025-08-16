@@ -12,15 +12,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from Shadow import Carbon, app
-from Shadow.utils.decorators.language import language, languageCB
-from Shadow.utils.inline.playlist import (
+from Ivanmusic import Carbon, app
+from Ivanmusic.utils.decorators.language import language, languageCB
+from Ivanmusic.utils.inline.playlist import (
     botplaylist_markup,
     get_playlist_markup,
     warning_markup,
 )
-from Shadow.utils.pastebin import HottyBin
-from Shadow.utils.stream.stream import stream
+from Ivanmusic.utils.pastebin import HottyBin
+from Ivanmusic.utils.stream.stream import stream
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
