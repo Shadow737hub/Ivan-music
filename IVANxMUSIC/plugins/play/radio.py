@@ -11,17 +11,17 @@ from pyrogram.errors import (
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils.database import (
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
     get_playmode,
     get_playtype,
 )
-from Shadow.utils.logger import play_logs
-from Shadow.utils.stream.stream import stream
+from Ivanmusic.utils.logger import play_logs
+from Ivanmusic.utils.stream.stream import stream
 from strings import get_string
 
 RADIO_STATION = {
