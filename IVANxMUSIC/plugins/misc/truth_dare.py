@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from Shadow import app
+from Ivanmusic import app
 
 # Truth or Dare API URLs
 truth_api_url = "https://api.truthordarebot.xyz/v1/truth"
