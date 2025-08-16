@@ -31,7 +31,7 @@ async def save_assistant(chat_id, number):
 
 
 async def set_assistant(chat_id):
-    from IVANMUSIC.core.userbot import assistants
+    from Ivanmusic.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
