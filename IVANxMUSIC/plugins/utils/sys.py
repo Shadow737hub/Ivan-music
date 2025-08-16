@@ -4,8 +4,8 @@ import time
 
 import psutil
 
-from IVANMUSIC.misc import _boot_
-from IVANMUSIC.utils.formatters import get_readable_time
+from from Ivanmusic import app.misc import _boot_
+from from Ivanmusic import app.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
