@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from IVANMUSIC import Carbon, YouTube, app
-from IVANMUSIC.core.call import Aviax
-from IVANMUSIC.misc import db
-from IVANMUSIC.utils.database import add_active_video_chat, is_active_chat
-from IVANMUSIC.utils.exceptions import AssistantErr
-from IVANMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from IVANMUSIC.utils.pastebin import AviaxBin
-from IVANMUSIC.utils.stream.queue import put_queue, put_queue_index
-from IVANMUSIC.utils.thumbnails import gen_thumb
+from Ivanmusic import Carbon, YouTube, app
+from Ivanmusic.core.call import Aviax
+from Ivanmusic.misc import db
+from Ivanmusic.utils.database import add_active_video_chat, is_active_chat
+from Ivanmusic.utils.exceptions import AssistantErr
+from Ivanmusic.utils.inline import aq_markup, close_markup, stream_markup
+from Ivanmusic.utils.pastebin import AviaxBin
+from Ivanmusic.utils.stream.queue import put_queue, put_queue_index
+from Ivanmusic.utils.thumbnails import gen_thumb
 
 
 async def stream(
