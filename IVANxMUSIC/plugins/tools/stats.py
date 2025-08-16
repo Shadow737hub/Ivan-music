@@ -20,8 +20,8 @@ from Ivanmusic.utils.database import (
     get_served_users,
     get_sudoers,
 )
-from Shadow.utils.decorators.language import language, languageCB
-from Shadow.utils.inline.stats import back_stats_buttons, stats_buttons
+from Ivanmusic.utils.decorators.language import language, languageCB
+from Ivanmusic.utils.inline.stats import back_stats_buttons, stats_buttons
 
 
 @app.on_message(filters.command(["stats", "gstats"]) & filters.group & ~BANNED_USERS)
