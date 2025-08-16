@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from Shadow import app
+from Ivanmusic import app
 
 sfw_actions = [
     "waifu",
