@@ -3,7 +3,7 @@ import os
 from typing import Dict, List, Union
 
 import config
-from IVANMUSIC.core.mongo import mongodb
+from Ivanmusic.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
