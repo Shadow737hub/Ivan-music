@@ -6,12 +6,12 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, adminlist, lyrical
-from Shadow import app
-from Shadow.core.call import Hotty
-from Shadow.misc import db
-from Shadow.utils.database import get_assistant, get_authuser_names, get_cmode
-from Shadow.utils.decorators import ActualAdminCB, AdminActual, language
-from Shadow.utils.formatters import alpha_to_int, get_readable_time
+from Ivanmusic import app
+from Ivanmusic.core.call import Hotty
+from Ivanmusic.misc import db
+from Ivanmusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from Ivanmusic.utils.decorators import ActualAdminCB, AdminActual, language
+from Ivanmusic.utils.formatters import alpha_to_int, get_readable_time
 
 rel = {}
 
