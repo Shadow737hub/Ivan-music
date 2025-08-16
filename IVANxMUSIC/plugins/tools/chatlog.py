@@ -4,8 +4,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import LOGGER_ID as LOG_GROUP_ID
-from Shadow import app
-from Shadow.utils.database import get_assistant
+from Ivanmusic import app
+from Ivanmusic.utils.database import get_assistant
 
 photo = [
     "https://te.legra.ph/file/758a5cf4598f061f25963.jpg",
