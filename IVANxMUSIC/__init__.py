@@ -1,8 +1,8 @@
-from IVANMUSIC.core.bot import IVAN
-from IVANMUSIC.core.dir import dirr
-from IVANMUSIC.core.git import git
-from IVANMUSIC.core.userbot import Userbot
-from IVANMUSIC.misc import dbb, heroku
+from Ivanmusic.core.bot import IVAN
+from Ivanmusic.core.dir import dirr
+from Ivanmusic.core.git import git
+from Ivanmusic.core.userbot import Userbot
+from Ivanmusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = IVANMUSIC()
+app = Ivanmusic()
 userbot = Userbot()
 api = SafoneAPI()
 
