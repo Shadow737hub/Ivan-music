@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from Shadow import app
-from Shadow.utils.formatters import (
+from Ivanmusic import app
+from Ivanmusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
