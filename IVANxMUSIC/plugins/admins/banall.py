@@ -1,7 +1,7 @@
 from pyrogram import filters
 
-from IVANMUSIC import app
-from IVANMUSIC.misc import SUDOERS
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
 
 BOT_ID = app.me.id  # Corrected this line
 
