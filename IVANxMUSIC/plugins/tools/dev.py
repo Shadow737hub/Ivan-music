@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import OWNER_ID
-from Shadow import app
+from Ivanmusic import app
 
 
 async def aexec(code, client, message):
