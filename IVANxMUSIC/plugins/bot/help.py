@@ -4,13 +4,13 @@ from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, SUPPORT_CHAT
-from Shadow import app
-from Shadow.utils import help_pannel
-from Shadow.utils.database import get_lang
-from Shadow.utils.decorators.language import LanguageStart, languageCB
-from Shadow.utils.inline.help import help_back_markup, private_help_panel
-from Shadow.utils.stuffs.buttons import BUTTONS
-from Shadow.utils.stuffs.helper import Helper
+from Ivanmusic import app
+from Ivanmusic.utils import help_pannel
+from Ivanmusic.utils.database import get_lang
+from Ivanmusic.utils.decorators.language import LanguageStart, languageCB
+from Ivanmusic.utils.inline.help import help_back_markup, private_help_panel
+from Ivanmusic.utils.stuffs.buttons import BUTTONS
+from Ivanmusic.utils.stuffs.helper import Helper
 from strings import get_string, helpers
 
 
