@@ -636,8 +636,8 @@ async def check_warns(_, message: Message):
 
 
 from pyrogram import filters
-from Shadow import app
-from Shadow.misc import SUDOERS
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
 import asyncio
 from pyrogram.errors import FloodWait
 
