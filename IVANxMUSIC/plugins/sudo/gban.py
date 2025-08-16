@@ -5,9 +5,9 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils import get_readable_time
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils import get_readable_time
 from Shadow.utils.database import (
     add_banned_user,
     get_banned_count,
@@ -16,8 +16,8 @@ from Shadow.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Shadow.utils.decorators.language import language
-from Shadow.utils.extraction import extract_user
+from Ivanmusic.utils.decorators.language import language
+from Ivanmusic.utils.extraction import extract_user
 
 
 @app.on_message(filters.command(["gban", "globalban"]) & SUDOERS)
