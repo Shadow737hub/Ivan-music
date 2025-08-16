@@ -4,7 +4,7 @@ from pyrogram import enums, filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import FloodWait
 
-from Shadow import app
+from Ivanmusic import app
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
