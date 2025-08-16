@@ -6,7 +6,7 @@ from bing_image_downloader import downloader
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 
-from Shadow import app
+from Ivanmusic import app
 
 
 @app.on_message(filters.command(["imgs", "image"], prefixes=["/", "!"]))
