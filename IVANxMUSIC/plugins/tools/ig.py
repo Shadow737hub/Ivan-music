@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from Shadow import app
+from Ivanmusic import app
 
 
 @app.on_message(filters.command(["ig", "instagram", "reel"]))
