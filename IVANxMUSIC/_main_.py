@@ -35,21 +35,21 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("IVANxMUSIC.plugins" + all_module)
-    LOGGER("IVANxMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("Ivanmusic.plugins" + all_module)
+    LOGGER("Ivanmusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await IVAN.start()
+    await Ivanmusic.start()
     try:
         await IVAN.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("IVANxMUSIC").error(
+        LOGGER("Ivanmusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗜𝗩𝗔𝗡 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await IVAN.decorators()
-    LOGGER("IVANxMUSIC").info(
+    LOGGER("Ivanmusic").info(
         "𝗠𝗔𝗗𝗘 𝗕𝗬 𝗜𝗩𝗔𝗡"
     await idle()
     await app.stop()
