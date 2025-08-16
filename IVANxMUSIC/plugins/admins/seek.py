@@ -6,7 +6,7 @@ from IVANMUSIC import YouTube, app
 from IVANMUSIC.core.call import Hotty
 from IVANMUSIC.misc import db
 from IVANMUSIC.utils import AdminRightsCheck, seconds_to_min
-from Shadow.utils.inline import close_markup
+from IVANMUSIC.utils.inline import close_markup
 
 
 @app.on_message(
