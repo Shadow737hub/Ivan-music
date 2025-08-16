@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Shadow import app
+from Ivanmusic import app
 
 
 # vc on
