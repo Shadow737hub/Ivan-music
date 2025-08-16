@@ -1,6 +1,6 @@
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from IVANMUSIC import app
+from Ivanmusic import app
 
 
 def help_pannel_page1(_, START: Union[bool, int] = None):
