@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from Shadow import app
-from Shadow.core.call import Hotty, autoend
-from Shadow.utils.database import get_client, is_active_chat, is_autoend
+from Ivanmusic import app
+from Ivanmusic.core.call import Hotty, autoend
+from Ivanmusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
