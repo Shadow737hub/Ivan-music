@@ -672,7 +672,7 @@ async def add_playlists(client, CallbackQuery, _):
     _check = await get_playlist(user_id, videoid)
     if _check:
         try:
-            from VIPMUSIC import YouTube
+            from Ivanmusic import YouTube
 
             return await CallbackQuery.answer(_["playlist_8"], show_alert=True)
         except:
