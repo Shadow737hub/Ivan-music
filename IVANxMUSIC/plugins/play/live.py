@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from Shadow import YouTube, app
-from Shadow.utils.channelplay import get_channeplayCB
-from Shadow.utils.decorators.language import languageCB
-from Shadow.utils.stream.stream import stream
+from Ivanmusic import YouTube, app
+from Ivanmusic.utils.channelplay import get_channeplayCB
+from Ivanmusic.utils.decorators.language import languageCB
+from Ivanmusic.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
