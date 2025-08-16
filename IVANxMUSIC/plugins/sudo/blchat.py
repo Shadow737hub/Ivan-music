@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Shadow import app
-from Shadow.misc import SUDOERS
-from Shadow.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from Shadow.utils.decorators.language import language
+from Ivanmusic import app
+from Ivanmusic.misc import SUDOERS
+from Ivanmusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from Ivanmusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["blchat", "blacklistchat"]) & SUDOERS)
